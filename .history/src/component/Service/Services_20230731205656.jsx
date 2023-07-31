@@ -14,7 +14,7 @@ const Services = () => {
     return (
         <div id='Service' className='bg-sky-200'>
             <h1 className=' text-center text-neutral font-bold text-5xl py-20  '>Services</h1>
-            <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-5 p-10 '>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 p-10 '>
             {/* Heart Caring */}
             <div className="card w-96 bg-base-100 shadow-xl card lg:w-96 hover:shadow- p-0 bg-base-200  rounded-md hover:scale-90 duration-500">
   <figure className="px-10 pt-10">
@@ -95,7 +95,8 @@ const Services = () => {
   </figure>
   <div className="card-body items-center text-center">
     <h2 className="card-title">Pulmonary </h2>
-    <p>When your respiratory system is healthy.</p>
+    <p>When your respiratory system is healthy.
+..</p>
     <div className="card-actions">
       <button className="btn btn-primary">Click</button>
     </div>
